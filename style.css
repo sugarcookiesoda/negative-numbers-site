@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+
+p {
+
+ color: white;
+ font: 15px pixelsans, sans-serif;
+
+}
+
+h1 {
+
+ color: white;
+ font: 25px pixelsans, sans-serif;
+
+}
+
+h2 {
+
+ color: white;
+ font: 20px pixelsans, sans-serif;
+
+}
+
+a {
+
+ color: yellow;
+ font: 15px pixelsans, sans-serif;
+
+}
+
+.center {
+  text-align: center;
+}
+
+
+@font-face {
+  font-family: pixelsans;
+  src: url(./font/PixeloidSans.ttf);
+}
