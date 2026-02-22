@@ -5,8 +5,34 @@ body {
 p {
 
  color: white;
- font: 15px pixelsans, sans-serif;
+ font: 17px pixelsans, sans-serif;
 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: 20px pixelsans, sans-serif;
+}
+
+ul li a:hover {
+  background-color: #111111;
+  color: yellow;
 }
 
 h1 {
@@ -26,7 +52,7 @@ h2 {
 a {
 
  color: yellow;
- font: 15px pixelsans, sans-serif;
+ font: 17px pixelsans, sans-serif;
 
 }
 
